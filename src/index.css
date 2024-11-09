@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased text-dark bg-gray-100 font-sans;
+  }
+}
+
+@layer utilities {
+  .rounded-smooth {
+    border-radius: 20px;
+  }
+} 
